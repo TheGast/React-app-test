@@ -1,0 +1,16 @@
+$container: 1395px;            //Ширина контейнера
+$padding-offset: 15px;         //Стандартные паддинги контейнера
+
+
+.site-wrapper{
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.container {
+  max-width: calc(#{$container} + #{$padding-offset});
+  padding: 0 $padding-offset;
+  margin: 0 auto;
+  background-color: beige;
+}

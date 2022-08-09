@@ -1,0 +1,51 @@
+// 100	Тонкий (Волосяной) Thin (Hairline)
+// 200	Дополнительный светлый (Сверхсветлый) Extra Light (Ultra Light)
+// 300	Светлый Light
+// 400	Нормальный Regular
+// 500	Средний Medium
+// 600	Полужирный Semi Bold (Demi Bold)
+// 700	Жирный Bold
+// 800	Дополнительный жирный (Сверхжирный) Extra Bold (Ultra Bold)
+// 900	Чёрный (Густой) Black (Heavy)
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  src: local(Montserrat),
+       url("../Fonts/Montserrat-Light.woff2");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: local(Montserrat),
+       url("../Fonts/Montserrat-Regular.woff2");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  src: local(Montserrat),
+       url("../Fonts/Montserrat-Medium.woff2");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  src: local(Montserrat),
+       url("../Fonts/Montserrat-SemiBold.woff2");
+}
+
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: local(Montserrat),
+       url("../Fonts/Montserrat-Bold.woff2");
+}
+
