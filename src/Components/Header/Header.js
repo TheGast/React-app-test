@@ -1,4 +1,4 @@
-
+import logo from '../../Images/logo.png';
 
 export function Header() {
   return (
@@ -7,7 +7,7 @@ export function Header() {
 
         <div className="header__top">
           <a className="logo" href="#">
-            <img className="logo__img" src="" alt="Logo Image"/>
+            <img src={logo} alt="Logo"/>
           </a>
           <div className="location">Санкт-Петербург</div>
           <input className="search" type="text"/>

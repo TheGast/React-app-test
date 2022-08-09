@@ -1,0 +1,36 @@
+.header {
+	&__top {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-top: 56px;
+		padding-bottom: 33px;
+	}
+}
+
+.logo {
+	width: 168px;
+	height: 34px;
+}
+
+.location {
+	font-size: 12px;
+	line-height: 150%;
+}
+
+.menu {
+	&__list {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	&__list-link {
+		line-height: 150%;
+		font-weight: 500;
+
+		&:hover {
+			color: $active-color;
+		}
+	}
+}

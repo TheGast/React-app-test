@@ -1,11 +1,15 @@
-$container: 1395px;            //Ширина контейнера
+$container: 1170px;            //Ширина контейнера
 $padding-offset: 15px;         //Стандартные паддинги контейнера
+
+$main-color: #545155;
+$active-color:#bf1e77;
 
 
 .site-wrapper{
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 400;
+  color: $main-color;
 }
 
 .container {
