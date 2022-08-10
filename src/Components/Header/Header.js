@@ -1,4 +1,7 @@
 import logo from '../../Images/logo.png';
+import heart from '../../Images/heart.svg';
+import user from '../../Images/user.svg';
+import cart from '../../Images/cart.svg';
 
 export function Header() {
   return (
@@ -7,12 +10,33 @@ export function Header() {
 
         <div className="header__top">
           <a className="logo" href="#">
-            <img src={logo} alt="Logo"/>
+            <img src={logo} alt="Logo" />
           </a>
           <div className="location">Санкт-Петербург</div>
-          <input className="search" type="text"/>
-          <div className="info">8 800 900 70 90</div>
-          <div className="btns">Buttons</div>
+          <div className="search">
+            <input className="search__input" type="text" placeholder="Я ищу" />
+          </div>
+          <div className="info">
+            <a href="tel:+78009007090" className="info__phone">8 800 900 70 90</a>
+            <div className="info__work">Пн-вс: 10:00 - 21:00</div>
+          </div>
+          <div className="user-btns">
+            <button className="user-btns__desired">
+              <div className="user-btns__desired-img">
+                <img src={heart} />
+              </div>
+            </button>
+            <button className="user-btns__profile">
+              <span className="user-btns__profile-img">
+                <img src={user} />
+              </span>
+            </button>
+            <button className="user-btns__cart">
+              <span className="user-btns__cart-img">
+                <img src={cart} />
+              </span>
+            </button>
+          </div>
         </div>
 
 

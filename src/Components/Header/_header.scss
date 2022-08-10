@@ -16,6 +16,19 @@
 .location {
 	font-size: 12px;
 	line-height: 150%;
+	position: relative;
+
+	&::before {
+		position: absolute;
+		content: "";
+		left: -26px;
+		top: 0;
+		background-image: url("../../Images/location.svg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 16px;
+		height: 16px;
+	}
 }
 
 .menu {
@@ -32,5 +45,80 @@
 		&:hover {
 			color: $active-color;
 		}
+	}
+}
+
+.search {
+	max-width: 309px;
+	width: 100%;
+	height: 40px;
+	background-color: #fbf7f4;
+	border-radius: 4px;
+	overflow: hidden;
+
+
+	&__input {
+		width: 100%;
+		height: 100%;
+		background-color: transparent;
+		margin: 0;
+		padding: 0;
+		border: none;
+		padding: 11px 16px;
+	}
+}
+
+.info {
+	text-align: right;
+
+	&__phone {
+		font-size: 20px;
+		font-weight: 500;
+	}
+
+	&__work {
+		font-size: 12px;
+	}
+}
+
+.user-btns{
+	width: 174px;
+	height: 40px;
+	display: flex;
+	background-color: #fbf7f4;
+	border-radius: 4px;
+	overflow: hidden;
+
+	&__desired{
+		flex-grow: 1;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	&__desired-img{
+		width: 18px;
+		height: 18px;
+	}
+	&__cart{
+		width: 73px;
+		background-color: $active-color;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	&__cart-img{
+		width: 18px;
+		height: 18px;
+	}
+	&__profile{
+		flex-grow: 1;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	&__profile-img{
+		width: 18px;
+		height: 18px;
 	}
 }
