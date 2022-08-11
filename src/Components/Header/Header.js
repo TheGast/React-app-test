@@ -1,7 +1,9 @@
-import logo from '../../Images/logo.png';
-import heart from '../../Images/heart.svg';
-import user from '../../Images/user.svg';
-import cart from '../../Images/cart.svg';
+import logo from './Images/logo.png';
+import heart from './Images/heart.svg';
+import user from './Images/user.svg';
+import cart from './Images/cart.svg';
+
+import './Header.scss';
 
 export function Header() {
   return (

@@ -1,9 +1,17 @@
+@import '../../ScssVariables/fonts';
+@import '../../ScssVariables/reset';
+@import '../../ScssVariables/global';
+
+
+
 .header {
+	padding-top: 37px;
+	padding-bottom: 29px;
+
 	&__top {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		padding-top: 56px;
 		padding-bottom: 33px;
 	}
 }
@@ -23,7 +31,7 @@
 		content: "";
 		left: -26px;
 		top: 0;
-		background-image: url("../../Images/location.svg");
+		background-image: url("./Images/location.svg");
 		background-repeat: no-repeat;
 		background-size: cover;
 		width: 16px;
@@ -52,7 +60,7 @@
 	max-width: 309px;
 	width: 100%;
 	height: 40px;
-	background-color: #fbf7f4;
+	background-color: $bg-color;
 	border-radius: 4px;
 	overflow: hidden;
 
@@ -85,7 +93,7 @@
 	width: 174px;
 	height: 40px;
 	display: flex;
-	background-color: #fbf7f4;
+	background-color: $bg-color;
 	border-radius: 4px;
 	overflow: hidden;
 

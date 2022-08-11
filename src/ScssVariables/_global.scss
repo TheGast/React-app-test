@@ -3,6 +3,8 @@ $padding-offset: 15px;         //Стандартные паддинги кон�
 
 $main-color: #545155;
 $active-color:#bf1e77;
+$bg-color: #fbf7f4;
+$white-color: #fff;
 
 
 .site-wrapper{
@@ -16,7 +18,6 @@ $active-color:#bf1e77;
   max-width: calc(#{$container} + #{$padding-offset});
   padding: 0 $padding-offset;
   margin: 0 auto;
-  background-color: beige;
 }
 
 button{
