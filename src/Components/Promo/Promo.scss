@@ -1,12 +1,10 @@
-@import '../../ScssVariables/global';
+@import '../../ScssVariables/vars';
 
 .promo {
   padding: 100px 0;
   
   &__container {
-    display: grid;
-    gap: 30px;
-    grid-template-columns: repeat(12, 1fr);
+   @include grid;
   }
 
   &__item {

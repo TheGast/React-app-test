@@ -1,0 +1,12 @@
+$main-color: #545155;
+$active-color:#bf1e77;
+$bg-color: #fbf7f4;
+$white-color: #fff;
+
+
+@mixin grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 30px;
+}
+
