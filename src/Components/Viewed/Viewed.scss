@@ -1,0 +1,79 @@
+@import "../../ScssVariables/vars";
+
+.viewed {
+  &__title {
+    text-align: center;
+  }
+
+  &__slider {
+    @include grid;
+  }
+
+  &__item {
+    grid-column: 4 span;
+  }
+}
+
+.item-viewed {
+  &__descr {
+    padding: 24px 0;
+    border-bottom: 1px solid rgba(191, 30, 119, .4);
+  }
+
+  &__name {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 150%;
+    color: $active-color;
+    margin-bottom: 20px;
+
+    span {
+      display: block;
+      font-weight: 400;
+      font-size: 12px;
+    }
+  }
+
+  &__param-name {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+
+    &:not(:last-child) {
+      margin-bottom: 16px;
+    }
+  }
+
+  &__param-count {
+    font-weight: 400;
+    padding-left: 10px;
+  }
+
+  &__bottom {
+    padding-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__price-new {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    margin-right: 20px;
+  }
+
+  &__price-old {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    opacity: 0.3;
+  }
+
+  &__btn {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: $active-color;
+  }
+}
