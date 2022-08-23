@@ -1,0 +1,46 @@
+@import '../../../ScssVariables/vars';
+@import '../../../ScssVariables/fonts';
+@import '../../../ScssVariables/global';
+@import '../../../ScssVariables/reset';
+
+.user{
+	width: 174px;
+	height: 40px;
+	display: flex;
+	background-color: $bg-color;
+	border-radius: 4px;
+	overflow: hidden;
+
+	&__desired{
+		flex-grow: 1;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	&__desiredImg{
+		width: 18px;
+		height: 18px;
+	}
+	&__cart{
+		width: 73px;
+		background-color: $active-color;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	&__cartImg{
+		width: 18px;
+		height: 18px;
+	}
+	&__profile{
+		flex-grow: 1;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	&__profileImg{
+		width: 18px;
+		height: 18px;
+	}
+}

@@ -1,15 +1,14 @@
 import {Header} from '../Header/Header';
+import Main from '../Main/Main';
 
 
-import s from './app.module.scss';
-
-
-export function App() {
+function App() {
   return (
    <div className="site-wrapper">
     <Header/>
-    {/* 
-    <Main/> */}
+    <Main/>
    </div>
   );
 }
+
+export default App;
