@@ -1,9 +1,10 @@
+@import '../../../ScssVariables/vars.scss';
 
 .search {
 	max-width: 309px;
 	width: 100%;
 	height: 40px;
-	// background-color: $bg-color;
+	background-color: $bg-color;
 	border-radius: 4px;
 	overflow: hidden;
 

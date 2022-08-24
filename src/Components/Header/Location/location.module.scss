@@ -1,18 +1,10 @@
-
 .location {
-	font-size: 12px;
-	line-height: 150%;
-	position: relative;
-
-	&::before {
-		position: absolute;
-		content: "";
-		left: -26px;
-		top: 0;
-		// background-image: url("./Images/location.svg");
-		background-repeat: no-repeat;
-		background-size: cover;
-		width: 16px;
-		height: 16px;
+	display: flex;
+	align-items: center;
+	
+	&__name {
+		font-size: 12px;
+		line-height: 150%;
+		position: relative;
 	}
 }

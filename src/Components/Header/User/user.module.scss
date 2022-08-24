@@ -1,9 +1,6 @@
-@import '../../../ScssVariables/vars';
-@import '../../../ScssVariables/fonts';
-@import '../../../ScssVariables/global';
-@import '../../../ScssVariables/reset';
+@import '../../../ScssVariables/vars.scss';
 
-.user{
+.user {
 	width: 174px;
 	height: 40px;
 	display: flex;
@@ -11,35 +8,39 @@
 	border-radius: 4px;
 	overflow: hidden;
 
-	&__desired{
+	&__desired {
 		flex-grow: 1;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 	}
 
-	&__desiredImg{
+	&__desiredImg {
 		width: 18px;
 		height: 18px;
 	}
-	&__cart{
+
+	&__cart {
 		width: 73px;
 		background-color: $active-color;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 	}
-	&__cartImg{
+
+	&__cartImg {
 		width: 18px;
 		height: 18px;
 	}
-	&__profile{
+
+	&__profile {
 		flex-grow: 1;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 	}
-	&__profileImg{
+
+	&__profileImg {
 		width: 18px;
 		height: 18px;
 	}

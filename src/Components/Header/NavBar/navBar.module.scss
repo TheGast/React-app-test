@@ -1,0 +1,18 @@
+@import '../../../ScssVariables/vars.scss';
+
+.menu {
+	&__list {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	&__listLink {
+		line-height: 150%;
+		font-weight: 500;
+
+		&:hover {
+			color: $active-color;
+		}
+	}
+}

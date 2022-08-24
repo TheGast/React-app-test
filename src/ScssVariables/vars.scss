@@ -10,3 +10,14 @@ $white-color: #fff;
   gap: 30px;
 }
 
+.gridDS {
+  grid-column: 8 span;
+}
+
+@mixin section-title {
+  font-weight: 500;
+  font-size: 48px;
+  text-transform: uppercase;
+  line-height: 72px;
+}
+
